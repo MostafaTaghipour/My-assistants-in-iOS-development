@@ -20,7 +20,26 @@ In this repository, there is a list of tools to accelerate the development of iO
 - [TextPlus](https://github.com/tuan188/MGTextPlus)
 - [XCFormat](https://itunes.apple.com/us/app/xcformat/id1165321484?mt=12)
 
+### How to install xcode extensions
+- Drag app to your Applications folder
+- Run app and exit again.
+- Go to System Preferences -> Extensions -> Xcode Source Editor and enable the extension
+- The menu-item should now be available from Xcode's Editor menu.
 
+## Xcode integrated terminal
+- Download [open terminal script](scripts/xcodeintegratedterminal.sh)
+- Navigate to the location of the script file you just downloaded using Terminal and change its permissions using:
+```
+chmod +x xcodeintegratedterminal.sh
+```
+- In Xcode, go to Preferences -> Behaviors and click the plus sign in the bottom to add a new behavior and name it something like “Open Terminal”
+- Tick only the last checkbox, where it says “Run”, and select the location of your .sh file
+- Click the little ⌘ symbol to the right of your behavior name and select a new keyboard shortcut for your behavior. I recommend: ctrl+alt+command+t
+
+That’s it, you’re done!
+
+References:
+[raywenderlich.com — Xcode Tips and Tricks](https://videos.raywenderlich.com/courses/88-xcode-tips-and-tricks/lessons/1?_ga=2.76767701.1781382542.1511961357-1141213228.1402497002)
 
 ## Author
 
@@ -31,4 +50,3 @@ Mostafa Taghipour, mostafa@taghipour.me
 Copyright © 2019 Mostafa Taghipour. 
 
 [LICENSE]: LICENSE
-
