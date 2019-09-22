@@ -78,12 +78,15 @@ chmod +x iOSSimulatorStarter.command
 
 ## Runs on devices with different versions of iOS
 In xcode you may have the following message when running the app on your device
+
 ![screen shots](https://raw.githubusercontent.com/mostafataghipour/My-assistants-in-iOS-development/master/screenshots/6.jpg)
 
 To resolve this issue you should add Developer Disk Image of your device ios version to Xcode,So you can follow below:
 - Download [Your desired version of Xcode Developer Disk Image](https://github.com/xushuduo/Xcode-iOS-Developer-Disk-Image/releases)
 - Copy downloaded file to /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport 
+
 ![screen shots](https://raw.githubusercontent.com/mostafataghipour/My-assistants-in-iOS-development/master/screenshots/7.jpg)
+
 - Restart Xcode
 
 ## Author
