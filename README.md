@@ -104,11 +104,11 @@ If for some reason need to download new iOS simulators outside of the normal XCo
 - Copy the URL from the Console. Then download it
 - Finally, copy downloaded file to ~/Library/Caches/com.apple.dt.Xcode/Downloads
 
-![screen shots](https://raw.githubusercontent.com/mostafataghipour/My-assistants-in-iOS-development/master/screenshots/10.jpg)
+![screen shots](https://raw.githubusercontent.com/mostafataghipour/My-assistants-in-iOS-development/master/screenshots/11.jpg)
 
 - In Xcode, in the Downloads section, start the Simulator download again, it should find the file you downloaded and install it.
 
-![screen shots](https://raw.githubusercontent.com/mostafataghipour/My-assistants-in-iOS-development/master/screenshots/11.jpg)
+![screen shots](https://raw.githubusercontent.com/mostafataghipour/My-assistants-in-iOS-development/master/screenshots/10.jpg)
 
 
 References:
