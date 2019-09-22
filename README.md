@@ -89,6 +89,29 @@ To resolve this issue you should add Developer Disk Image of your device ios ver
 
 - Restart Xcode
 
+## Manually Install iOS Simulators in XCode
+If for some reason need to download new iOS simulators outside of the normal XCode download process, here is how you do it:
+- Open Xcode, open preferences, go to the Downloads section.
+- Open the Console App, clear the console.
+- Go back to the Xcode preferences. Start the simulator download, then cancel it.
+
+![screen shots](https://raw.githubusercontent.com/mostafataghipour/My-assistants-in-iOS-development/master/screenshots/8.jpg)
+
+- Now in the Console, you will see something about the cancellation with the download URL.
+
+![screen shots](https://raw.githubusercontent.com/mostafataghipour/My-assistants-in-iOS-development/master/screenshots/9.jpg)
+
+- Copy the URL from the Console. Then download it
+- Finally, copy downloaded file to ~/Library/Caches/com.apple.dt.Xcode/Downloads
+
+![screen shots](https://raw.githubusercontent.com/mostafataghipour/My-assistants-in-iOS-development/master/screenshots/10.jpg)
+
+- In Xcode, in the Downloads section, start the Simulator download again, it should find the file you downloaded and install it.
+
+![screen shots](https://raw.githubusercontent.com/mostafataghipour/My-assistants-in-iOS-development/master/screenshots/11.jpg)
+
+
+
 ## Author
 
 Mostafa Taghipour, mostafa@taghipour.me
