@@ -111,6 +111,9 @@ If for some reason need to download new iOS simulators outside of the normal XCo
 ![screen shots](https://raw.githubusercontent.com/mostafataghipour/My-assistants-in-iOS-development/master/screenshots/11.jpg)
 
 
+References:
+[An answer on Stackoverflow site](https://stackoverflow.com/a/29111012)
+
 
 ## Author
 
